@@ -1,0 +1,35 @@
+.label {
+	-fx-font-weight: bold;
+	-fx-text-fill: #aaaaaa;
+}
+
+.list-view {
+	-fx-background-color: #131316;
+	-fx-background-insets: 0,0,0,0;	
+}
+
+.scroll-bar {
+	-fx-background-color: #020205;
+}
+
+.scroll-bar .thumb {
+	-fx-background-color: #3E3E45;
+}
+
+.list-cell {
+	-fx-background-color: #131316;
+    -fx-padding: 7px;
+    -fx-background-insets: 0px 0px 0px 0px, 0px ;
+    -fx-border-color: #202025;
+    -fx-border-width: 0 0 1 0;
+}
+
+.list-cell:hover {
+	-fx-background-color: #181919;
+}
+
+.list-cell:empty {
+	-fx-background-color: transparent;
+	-fx-border-width: 0;
+}
+
